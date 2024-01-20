@@ -30,7 +30,7 @@ def is_palindrome(s: str) -> bool:
 
 
 # dynamic programming approach suggested by ChatGPT - O(n^2)
-# much faster than the recursive approach
+# much faster than the recursive approach 
 def find2(s: str) -> str:
     n = len(s)
     if n < 2:
